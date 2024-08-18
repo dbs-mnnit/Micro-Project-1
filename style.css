@@ -1,0 +1,140 @@
+#div1
+{
+    display: flex;
+    background-color: #FFCD9E;
+    height: 600px;
+    width: auto;
+}
+#div2
+{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: auto;
+}
+#image
+{
+
+    float: right;
+    justify-content: center;
+    border: 2px;
+}
+
+#heading
+{
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 64px;
+    text-align: left;
+    color: black;
+
+    
+
+
+}
+#text
+{
+    margin-left: 120px;
+}
+#paragraph
+{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+#subheading
+{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+#input
+{
+    width: 290px;
+    height: 64px;
+    top: 411px;
+    left: 136px;
+    gap: 0px;
+    border-radius: 8px;
+    margin-right: 20px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 2px solid #000000
+
+
+}
+input::placeholder {
+    font-size: 25px; 
+    color: gray;     
+  }
+
+#button
+{
+    width: 216px;
+    height: 70px;
+    top: 411px;
+    left: 496px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+
+}
+.footer-left{
+    color: white;
+    text-align: left;
+
+
+}
+li{
+
+    height: 36px;
+    
+    opacity: 0px;
+
+}
+#left
+{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    margin-left: 100px;
+}
+#right
+{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    text-align: right;
+    margin-right: 20px;
+}
+#watermark
+{
+    position: fixed;
+    color: red;
+    font-size: medium;
+}
+i {
+    font-size: 24px; /* Adjust the size of the icons */
+    color: white; /* Icon color */
+    margin-left: 10px; /* Space between icons */
+  }
+.footer-right
+{
+    text-align: right;
+    color: white;
+    margin-right: 50px;
+}
